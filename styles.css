@@ -1,0 +1,91 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 4em 2em 6em;
+}
+
+.upload-wrapper {
+  display: block;
+
+  max-width: 60ch;
+}
+
+.upload {
+  padding: 4em 2em;
+
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+#file-upload {
+  display: none;
+}
+
+.output {
+  margin: 4rem 0 6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-gap: 2rem;
+}
+
+.otp {
+  flex: 10rem 20rem 1;
+}
+
+.otp__name {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+.otp__secret {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
+.otp__link {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+}
+
+.otp__copied {
+  font-size: 0.875rem;
+}
+
+.otp__qr-code_wrapper {
+  display: block;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.otp__qr-code {
+  display: block;
+
+  filter: blur(0.75rem);
+  transition: 0.2s filter;
+}
+
+.otp__qr-code--show {
+  filter: blur(0);
+  transition: 0.4s filter;
+}
+
+details {
+  margin: 1rem 0;
+}
+
+summary {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+dt {
+  font-weight: 800;
+}
+
+dd {
+  word-break: break-all;
+}
