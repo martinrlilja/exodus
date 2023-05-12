@@ -88,4 +88,5 @@ dt {
 
 dd {
   word-break: break-all;
+  user-select: all;
 }
