@@ -4,6 +4,8 @@ Extract OTP secrets from Google Authenticator exports.
 
 This helps you migrate away from Google Authenticator to 1Password or other authenticator apps. 
 
+[Try it out](https://www.martinlilja.se/exodus/)
+
 ## Development
 
 [Install trunk](https://github.com/thedodd/trunk)
